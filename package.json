@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p && npm run test",
+    "build": "webpack -p",
     "test": "./node_modules/.bin/cucumber.js --compiler js:babel-core/register",
     "prepare": "npm run build"
   },
